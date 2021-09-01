@@ -52,6 +52,16 @@ img {
   object-fit: cover;
   object-position: center;
 }
+.row {
+  display: flex;
+}
+.column {
+  flex: 50%;
+}
+.portrait {
+  width: 20vh;
+  height: 20vh;
+}
 .wrapper {
   max-width: 1150px;
   margin: auto;
