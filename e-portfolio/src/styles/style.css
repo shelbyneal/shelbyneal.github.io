@@ -11,7 +11,7 @@ header, footer {
 }
 header {
 	font-family: 'Asap', sans-serif;
-	color: #fff;
+	color: rgba(255, 255, 255, 0.75);
 	min-height: 100vh;
 	display: flex;
 }
@@ -62,7 +62,7 @@ img {
 	display: block;
 }
 .bio {
-	color: #ffffff;
+	color: rgba(255, 255, 255, 0.75);
 	font-size: 24px;
 	font-family: 'Asap', sans-serif;
 }
@@ -73,9 +73,9 @@ img {
 }
 .myButton {
 	border-radius: 28px;
-	border: 1px solid #ffffff;
+	border: 1px solid rgba(255, 255, 255, 0.75);
 	cursor: pointer;
-	color: #ffffff;
+	color: rgba(255, 255, 255, 0.75);
 	font-size: 20px;
 	padding: 16px 31px;
 	text-decoration: none;
