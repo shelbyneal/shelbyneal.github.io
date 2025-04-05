@@ -1,7 +1,5 @@
 import Head from 'next/head';
 import Image from 'next/image';
-
-import '../styles/style.css';
 import ProjectSection from '@/components/ProjectSection';
 
 export default function Home() {

@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "serve out",
     "lint": "next lint",
-    "export": "node -e \"require('fs').rmSync('../_next', { recursive: true, force: true }); require('fs').rmSync('../documents', { recursive: true, force: true }); require('fs').rmSync('../images', { recursive: true, force: true }); require('fs').rmSync('../404.html', { force: true }); require('fs').rmSync('../favicon.ico', { force: true }); require('fs').rmSync('../file.svg', { force: true }); require('fs').rmSync('../globe.svg', { force: true }); require('fs').rmSync('../index.html', { force: true }); require('fs').rmSync('../index.txt', { force: true }); require('fs').rmSync('../next.svg', { force: true }); require('fs').rmSync('../vercel.svg', { force: true }); require('fs').rmSync('../window.svg', { force: true }); require('fs').cpSync('./out/', '../', { recursive: true });\""
+    "export": "node -e \"require('fs').rmSync('../_next', { recursive: true, force: true }); require('fs').rmSync('../documents', { recursive: true, force: true }); require('fs').rmSync('../images', { recursive: true, force: true }); require('fs').rmSync('../404.html', { force: true }); require('fs').rmSync('../favicon.ico', { force: true }); require('fs').rmSync('../file.svg', { force: true }); require('fs').rmSync('../globe.svg', { force: true }); require('fs').rmSync('../index.html', { force: true }); require('fs').rmSync('../index.txt', { force: true }); require('fs').rmSync('../next.svg', { force: true }); require('fs').rmSync('../style.css', { force: true }); require('fs').rmSync('../vercel.svg', { force: true }); require('fs').rmSync('../window.svg', { force: true }); require('fs').cpSync('./out/', '../', { recursive: true });\""
   },
   "dependencies": {
     "next": "15.2.4",
