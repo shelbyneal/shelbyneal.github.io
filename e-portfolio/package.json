@@ -1,0 +1,29 @@
+{
+  "name": "e-portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "serve out",
+    "lint": "next lint",
+    "export": "node -e \"require('fs').rmSync('../_next', { recursive: true, force: true }); require('fs').rmSync('../documents', { recursive: true, force: true }); require('fs').rmSync('../images', { recursive: true, force: true }); require('fs').rmSync('../404.html', { force: true }); require('fs').rmSync('../favicon.ico', { force: true }); require('fs').rmSync('../file.svg', { force: true }); require('fs').rmSync('../globe.svg', { force: true }); require('fs').rmSync('../index.html', { force: true }); require('fs').rmSync('../index.txt', { force: true }); require('fs').rmSync('../next.svg', { force: true }); require('fs').rmSync('../vercel.svg', { force: true }); require('fs').rmSync('../window.svg', { force: true }); require('fs').cpSync('./out/', '../', { recursive: true });\""
+  },
+  "dependencies": {
+    "next": "15.2.4",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.2.4",
+    "serve": "^14.2.4",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
