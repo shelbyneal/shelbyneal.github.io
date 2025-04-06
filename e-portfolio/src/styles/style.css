@@ -82,6 +82,7 @@ img {
 	display: flex;
 	justify-content: center;
 	align-content: center;
+	margin-bottom: 1rem;
 }
 .myButton {
 	border-radius: 28px;
