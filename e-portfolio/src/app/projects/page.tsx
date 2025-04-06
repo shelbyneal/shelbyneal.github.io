@@ -3,6 +3,12 @@ import Link from 'next/link';
 
 export default function Projects() {
 	return <>
+		<div className="buttonBox">
+			<Link href="/">
+				<a className="myButton">Home</a>
+			</Link>
+		</div>
+
 		<ProjectSection
 			title="MajorKey Technologies, LLC"
 			imgSrc="/images/mjk.jpg"
