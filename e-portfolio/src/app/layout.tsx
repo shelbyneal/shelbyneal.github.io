@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import Head from "next/head";
 import "../styles/globals.css";
 import '../styles/style.css';
 
@@ -24,12 +25,22 @@ export default function RootLayout({
 	children: React.ReactNode;
 }>) {
 	return (
-		<html lang="en">			
+		<html lang="en">
+			<Head>
+				<title>Shelby Neal</title>
+				<meta charSet="utf-8" />
+				<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+			</Head>
 			<body
 				className={`${geistSans.variable} ${geistMono.variable} antialiased`}
 			>
-				{children}
+				<main className="wrapper">{children}</main>
 			</body>
+			<footer>
+				<div>
+					<p className="copyright">© Shelby Neal 2025</p>
+				</div>
+			</footer>
 		</html>
 	);
 }
