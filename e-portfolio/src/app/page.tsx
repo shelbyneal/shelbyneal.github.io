@@ -24,6 +24,8 @@ export default function Home() {
 			<h3><a href="https://vtechworks.lib.vt.edu/handle/10919/109979"	title="Object Detection Project">
 				Object Detection (Capstone)
 			</a></h3>
+			<h4><a href="/documents/ObjectDetectionPresentation.pdf" title="Object Detection Presentation">Object Detection (Presentation)</a></h4>
+			<h4><a href="/documents/ObjectDetectionReport.pdf" title="Object Detection Report">Object Detection (Report)</a></h4>
 			<h2>Check out my website for a look into my e-Portfolio!</h2>
 		</div>
 		<div className="buttonBox">
